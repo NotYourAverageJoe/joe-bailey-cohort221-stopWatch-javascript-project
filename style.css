@@ -1,0 +1,80 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background: rgb(20, 173, 71);
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+.div{
+position: fixed;
+top:2%;;
+left:44%;
+
+}
+.h1 {
+   position: fixed;
+    top: 30%;
+    left: 42%;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: rgb(225, 235, 230);
+    width: 30%;
+    height: 200px;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.timerDisplay{
+    position: relative;
+    width: 92%;
+    background: #ffffff;
+    left: 4%;
+    padding: 40px 0;
+    font-family: 'Orbitron', sans-serif;
+    color: #0381bb;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+}
+
+.buttons{
+    
+margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    width: 120px;
+    height: 45px;
+    background-color: #c9db24;
+    border: none;
+    border-radius: 10px;
+    cursor: grab;
+    font-family: 'Orbitron', monospace;
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+}
+
+.buttons button:nth-last-child(2){
+    background-color: #2bbd17;
+}
+
+.buttons button:nth-last-child(3){
+    background-color: #e80707;
+}
